@@ -82,8 +82,6 @@ namespace Microsoft.Xna.Framework.Graphics
 
         private void Link(Shader vertexShader, Shader pixelShader)
         {
-            // TODO: Shouldn't we be calling GL.DeleteProgram() somewhere?
-
             // NOTE: No need to worry about background threads here
             // as this is only called at draw time when we're in the
             // main drawing thread.
